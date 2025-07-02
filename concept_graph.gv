@@ -1,0 +1,9 @@
+digraph GraphTheory {
+    node[shape=box, style="filled", fillcolor="#E5E5EA"];
+    "Nodes" -> "Edges";
+    "Edges" -> "Adjacency";
+    "Connectivity" -> "Components" [label="is related to"];
+    "Paths" -> "Cycles" [label="can be part of"];
+    "Network Analysis" -> "Computer Science" [label="is used in"];
+    "Biology" -> "Graph Theory" [label="applies concepts from"];
+}
